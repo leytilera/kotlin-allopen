@@ -36,7 +36,7 @@ publishing {
 
     repositories {
         maven {
-            url = uri("https://data.tilera.xyz/maven/")
+            url = uri("https://maven.tilera.xyz")
             credentials {
                 username = findProperty("mvnUsername") as String?
                 password = findProperty("mvnPassword") as String?
